@@ -4,6 +4,7 @@ import Customer from './components/Customer/CustomerSignup'
 import Vendor from './components/Vendor/VendorSignup'
 import ControlPanel from './assets/pages/Controlpanel/controlpanel'
 import TicketPool from './assets/pages/Ticketpool/ticketpool'
+import HomePage from './assets/pages/Home/home'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
               <Route path='/vendor' element={<Vendor/>} />
               <Route path='/controlpanel' element={<ControlPanel/>} />
               <Route path='/ticketpool' element={<TicketPool/>} />
+              <Route path='/home' element={<HomePage/>} />
             </Routes>
         </BrowserRouter>
     </div>
