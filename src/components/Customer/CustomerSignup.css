@@ -1,0 +1,61 @@
+/* Container to center the form */
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Label styles */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Input fields styling */
+  .form-control {
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Form text styling */
+  .form-text {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  /* Adding small margin between form fields */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Add some padding to the form fields */
+  input[type="text"], input[type="email"] {
+    padding-left: 15px;
+  }
+  
